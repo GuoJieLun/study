@@ -1,0 +1,99 @@
+/* line 4, ../sass/detail.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 10, ../sass/detail.scss */
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 19, ../sass/detail.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 22, ../sass/detail.scss */
+.images_wrap {
+  min-height: 300px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 27, ../sass/detail.scss */
+.title {
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 2rem;
+}
+/* line 31, ../sass/detail.scss */
+.title span {
+  font-size: 1.2rem;
+}
+
+/* line 36, ../sass/detail.scss */
+.form-horizontal {
+  padding: 10px;
+}
+/* line 38, ../sass/detail.scss */
+.form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 42, ../sass/detail.scss */
+.form-horizontal .form-control {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0;
+  padding-left: 10px;
+}
+/* line 49, ../sass/detail.scss */
+.form-horizontal .input-name {
+  display: inline-block;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  padding: 0;
+}
+/* line 55, ../sass/detail.scss */
+.form-horizontal .input-name span {
+  color: #FF0000;
+}
+/* line 59, ../sass/detail.scss */
+.form-horizontal .input-info {
+  padding: 0;
+}
+
+/* line 64, ../sass/detail.scss */
+#submit {
+  background: #ff5801;
+  color: #fff;
+  border-width: 0px;
+}
+
+/* line 69, ../sass/detail.scss */
+.error {
+  color: #d9534f;
+}
+
+/* line 73, ../sass/detail.scss */
+.slide-wrap {
+  background: #ededed;
+  padding: 10px 5px;
+  height: 105px;
+  overflow: hidden;
+  border-top: 1px solid #e3e3e3;
+  border-bottm: 1px solid #e3e3e3;
+}
+/* line 82, ../sass/detail.scss */
+.slide-wrap .slide-box li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+/* line 84, ../sass/detail.scss */
+.slide-wrap .slide-box li span {
+  color: #43ef64;
+  font-size: 1.4rem;
+}
