@@ -1,23 +1,41 @@
-/* line 4, ../sass/index.scss */
+@charset "UTF-8";
+@font-face {
+  font-family: 'webfont';
+  src: url("//at.alicdn.com/t/acijcxahmnzpk3xr.eot");
+  /* IE9*/
+  src: url("//at.alicdn.com/t/acijcxahmnzpk3xr.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/acijcxahmnzpk3xr.woff") format("woff"), url("//at.alicdn.com/t/acijcxahmnzpk3xr.ttf") format("truetype"), url("//at.alicdn.com/t/acijcxahmnzpk3xr.svg#思源黑体-极细") format("svg");
+  /* iOS 4.1- */
+}
+/* line 9, ../sass/index.scss */
+.web-font {
+  font-family: "webfont" !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 17, ../sass/index.scss */
 .clearfix {
   *zoom: 1;
 }
 
-/* line 10, ../sass/index.scss */
+/* line 23, ../sass/index.scss */
 .clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
 
-/* line 21, ../sass/index.scss */
+/* line 34, ../sass/index.scss */
 html, body {
   position: relative;
   height: 100%;
   background: #fff;
 }
 
-/* line 29, ../sass/index.scss */
+/* line 42, ../sass/index.scss */
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -27,48 +45,48 @@ body {
 }
 
 @media screen and (min-width: 320px) {
-  /* line 37, ../sass/index.scss */
+  /* line 53, ../sass/index.scss */
   html {
     font-size: 14px;
   }
 }
 @media screen and (min-width: 360px) {
-  /* line 41, ../sass/index.scss */
+  /* line 57, ../sass/index.scss */
   html {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 400px) {
-  /* line 45, ../sass/index.scss */
+  /* line 61, ../sass/index.scss */
   html {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 440px) {
-  /* line 49, ../sass/index.scss */
+  /* line 65, ../sass/index.scss */
   html {
     font-size: 20px;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 53, ../sass/index.scss */
+  /* line 69, ../sass/index.scss */
   html {
     font-size: 22px;
   }
 }
 @media screen and (min-width: 640px) {
-  /* line 57, ../sass/index.scss */
+  /* line 73, ../sass/index.scss */
   html {
     font-size: 28px;
   }
 }
-/* line 60, ../sass/index.scss */
+/* line 76, ../sass/index.scss */
 .swiper-container {
   width: 100%;
   height: 100%;
 }
 
-/* line 65, ../sass/index.scss */
+/* line 81, ../sass/index.scss */
 .swiper-slide {
   background: #fff;
   color: #fff;
@@ -90,44 +108,44 @@ body {
   /*align-items: center;*/
 }
 
-/* line 87, ../sass/index.scss */
+/* line 103, ../sass/index.scss */
 .swiper-one-h {
   background: url("../images/6.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 91, ../sass/index.scss */
+/* line 107, ../sass/index.scss */
 .swiper-two-h {
   background: url("../images/3.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 95, ../sass/index.scss */
+/* line 111, ../sass/index.scss */
 .swiper-three-h {
   background: url("../images/4.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 99, ../sass/index.scss */
+/* line 115, ../sass/index.scss */
 .swiper-four-h {
   background: url("../images/5.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 105, ../sass/index.scss */
+/* line 121, ../sass/index.scss */
 .swiper-one-h .title {
   text-align: center;
   font-size: 1.5rem;
   padding: 0.5rem;
 }
 
-/* line 112, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 .triangle {
   width: 12.4rem;
   height: 10.9rem;
   margin: 0 auto;
 }
-/* line 116, ../sass/index.scss */
+/* line 132, ../sass/index.scss */
 .triangle img {
   width: 100%;
 }

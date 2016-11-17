@@ -1,5 +1,18 @@
 @charset "UTF-8";
-
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/acijcxahmnzpk3xr.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/acijcxahmnzpk3xr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/acijcxahmnzpk3xr.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/acijcxahmnzpk3xr.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/acijcxahmnzpk3xr.svg#思源黑体-极细') format('svg'); /* iOS 4.1- */
+}
+.web-font{
+  font-family:"webfont" !important;
+  font-size:14px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .clearfix {
 
@@ -33,6 +46,9 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
+
 @media screen and (min-width: 320px) {
   html {font-size: 14px;}
 }
