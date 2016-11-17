@@ -17,25 +17,61 @@ html, body {
   background: #fff;
 }
 
-/* line 27, ../sass/index.scss */
+/* line 29, ../sass/index.scss */
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
   color: #000;
   margin: 0;
   padding: 0;
 }
 
-/* line 36, ../sass/index.scss */
+@media screen and (min-width: 320px) {
+  /* line 37, ../sass/index.scss */
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 360px) {
+  /* line 41, ../sass/index.scss */
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 400px) {
+  /* line 45, ../sass/index.scss */
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 440px) {
+  /* line 49, ../sass/index.scss */
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 480px) {
+  /* line 53, ../sass/index.scss */
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 640px) {
+  /* line 57, ../sass/index.scss */
+  html {
+    font-size: 28px;
+  }
+}
+/* line 60, ../sass/index.scss */
 .swiper-container {
   width: 100%;
   height: 100%;
 }
 
-/* line 41, ../sass/index.scss */
+/* line 65, ../sass/index.scss */
 .swiper-slide {
   background: #fff;
+  color: #fff;
   /*text-align: center;*/
   /*font-size: 18px;*/
   /*background: #fff;*/
@@ -54,26 +90,33 @@ body {
   /*align-items: center;*/
 }
 
-/* line 62, ../sass/index.scss */
+/* line 87, ../sass/index.scss */
 .swiper-one-h {
-  background: url("../images/2.jpg") no-repeat 50%;
+  background: url("../images/6.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 66, ../sass/index.scss */
+/* line 91, ../sass/index.scss */
 .swiper-two-h {
   background: url("../images/3.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 70, ../sass/index.scss */
+/* line 95, ../sass/index.scss */
 .swiper-three-h {
   background: url("../images/4.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 74, ../sass/index.scss */
+/* line 99, ../sass/index.scss */
 .swiper-four-h {
   background: url("../images/5.jpg") no-repeat 50%;
   background-size: cover;
+}
+
+/* line 105, ../sass/index.scss */
+.swiper-one-h .title {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
