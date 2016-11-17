@@ -117,6 +117,17 @@ body {
 /* line 105, ../sass/index.scss */
 .swiper-one-h .title {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 0.5rem;
+}
+
+/* line 112, ../sass/index.scss */
+.triangle {
+  width: 12.4rem;
+  height: 10.9rem;
+  margin: 0 auto;
+}
+/* line 116, ../sass/index.scss */
+.triangle img {
+  width: 100%;
 }
