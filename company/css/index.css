@@ -150,7 +150,19 @@ body {
   width: 100%;
 }
 
-/* line 159, ../sass/index.scss */
+/* line 158, ../sass/index.scss */
+.ad_txt {
+  width: 10.53571rem;
+  text-align: center;
+  padding: 3.57143rem 0 1.78571rem 0;
+  margin: 0 auto;
+}
+/* line 163, ../sass/index.scss */
+.ad_txt img {
+  width: 100%;
+}
+
+/* line 167, ../sass/index.scss */
 .business {
   font-size: 0.85rem;
   text-align: center;
