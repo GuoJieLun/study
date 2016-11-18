@@ -6,7 +6,7 @@
   src: url("//at.alicdn.com/t/acijcxahmnzpk3xr.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/acijcxahmnzpk3xr.woff") format("woff"), url("//at.alicdn.com/t/acijcxahmnzpk3xr.ttf") format("truetype"), url("//at.alicdn.com/t/acijcxahmnzpk3xr.svg#思源黑体-极细") format("svg");
   /* iOS 4.1- */
 }
-/* line 9, ../sass/index.scss */
+/* line 16, ../sass/index.scss */
 .web-font {
   font-family: "webfont" !important;
   font-size: 14px;
@@ -16,26 +16,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 17, ../sass/index.scss */
+/* line 24, ../sass/index.scss */
 .clearfix {
   *zoom: 1;
 }
 
-/* line 23, ../sass/index.scss */
+/* line 30, ../sass/index.scss */
 .clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
 
-/* line 34, ../sass/index.scss */
+/* line 41, ../sass/index.scss */
 html, body {
   position: relative;
   height: 100%;
   background: #fff;
 }
 
-/* line 42, ../sass/index.scss */
+/* line 49, ../sass/index.scss */
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -45,48 +45,48 @@ body {
 }
 
 @media screen and (min-width: 320px) {
-  /* line 53, ../sass/index.scss */
+  /* line 60, ../sass/index.scss */
   html {
     font-size: 14px;
   }
 }
 @media screen and (min-width: 360px) {
-  /* line 57, ../sass/index.scss */
+  /* line 64, ../sass/index.scss */
   html {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 400px) {
-  /* line 61, ../sass/index.scss */
+  /* line 68, ../sass/index.scss */
   html {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 440px) {
-  /* line 65, ../sass/index.scss */
+  /* line 72, ../sass/index.scss */
   html {
     font-size: 20px;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 69, ../sass/index.scss */
+  /* line 76, ../sass/index.scss */
   html {
     font-size: 22px;
   }
 }
 @media screen and (min-width: 640px) {
-  /* line 73, ../sass/index.scss */
+  /* line 80, ../sass/index.scss */
   html {
     font-size: 28px;
   }
 }
-/* line 76, ../sass/index.scss */
+/* line 83, ../sass/index.scss */
 .swiper-container {
   width: 100%;
   height: 100%;
 }
 
-/* line 81, ../sass/index.scss */
+/* line 88, ../sass/index.scss */
 .swiper-slide {
   background: #fff;
   color: #fff;
@@ -108,44 +108,51 @@ body {
   /*align-items: center;*/
 }
 
-/* line 103, ../sass/index.scss */
+/* line 110, ../sass/index.scss */
 .swiper-one-h {
-  background: url("../images/6.jpg") no-repeat 50%;
+  background: url("../images/first_bg.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 107, ../sass/index.scss */
-.swiper-two-h {
-  background: url("../images/3.jpg") no-repeat 50%;
-  background-size: cover;
-}
-
-/* line 111, ../sass/index.scss */
-.swiper-three-h {
-  background: url("../images/4.jpg") no-repeat 50%;
-  background-size: cover;
-}
-
-/* line 115, ../sass/index.scss */
-.swiper-four-h {
-  background: url("../images/5.jpg") no-repeat 50%;
-  background-size: cover;
-}
-
-/* line 121, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 .swiper-one-h .title {
   text-align: center;
   font-size: 1.5rem;
   padding: 0.5rem;
 }
 
-/* line 128, ../sass/index.scss */
-.triangle {
-  width: 12.4rem;
-  height: 10.9rem;
+/* line 135, ../sass/index.scss */
+.slogan {
+  position: relative;
+}
+/* line 137, ../sass/index.scss */
+.slogan .sentence {
+  width: 16.78571rem;
+  height: 1.42857rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 5.71429rem;
+  left: 50%;
+  margin-left: -8.39286rem;
+}
+/* line 145, ../sass/index.scss */
+.slogan .sentence img {
+  width: 100%;
+}
+/* line 149, ../sass/index.scss */
+.slogan .triangle {
+  width: 12.42857rem;
+  height: 10.92857rem;
   margin: 0 auto;
 }
-/* line 132, ../sass/index.scss */
-.triangle img {
+/* line 153, ../sass/index.scss */
+.slogan .triangle img {
   width: 100%;
+}
+
+/* line 159, ../sass/index.scss */
+.business {
+  font-size: 0.57143rem;
+  text-align: center;
+  padding-top: 3.57143rem;
 }

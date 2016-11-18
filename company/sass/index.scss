@@ -6,6 +6,13 @@
   url('//at.alicdn.com/t/acijcxahmnzpk3xr.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   url('//at.alicdn.com/t/acijcxahmnzpk3xr.svg#思源黑体-极细') format('svg'); /* iOS 4.1- */
 }
+$baseFontSize:28px !default;
+
+// pixels to rems
+@function pxToRem($px) {
+  @return $px / $baseFontSize * 1rem;
+}
+
 .web-font{
   font-family:"webfont" !important;
   font-size:14px;font-style:normal;
@@ -101,21 +108,21 @@ body {
 }
 
 .swiper-one-h{
-    background: url("../images/6.jpg") no-repeat 50%;
+    background: url("../images/first_bg.jpg") no-repeat 50%;
     background-size: cover;
 }
-.swiper-two-h{
-  background: url("../images/3.jpg") no-repeat 50%;
-  background-size: cover;
-}
-.swiper-three-h{
-  background: url("../images/4.jpg") no-repeat 50%;
-  background-size: cover;
-}
-.swiper-four-h{
-  background: url("../images/5.jpg") no-repeat 50%;
-  background-size: cover;
-}
+//.swiper-two-h{
+//  background: url("../images/3.jpg") no-repeat 50%;
+//  background-size: cover;
+//}
+//.swiper-three-h{
+//  background: url("../images/4.jpg") no-repeat 50%;
+//  background-size: cover;
+//}
+//.swiper-four-h{
+//  background: url("../images/5.jpg") no-repeat 50%;
+//  background-size: cover;
+//}
 
 .swiper-one-h{
     .title{
@@ -125,11 +132,32 @@ body {
     }
 }
 
-.triangle{
-  width: 12.4rem;
-  height: 10.9rem;
-  margin: 0 auto;
-  img{
-    width: 100%;
+.slogan{
+  position: relative;
+  .sentence{
+    width: pxToRem(470px);
+    height: pxToRem(40px);
+    margin: 0 auto;
+    position: absolute;
+    top: pxToRem(160px);
+    left: 50%;
+    margin-left: pxToRem(-235px);
+    img{
+      width: 100%;
+    }
   }
+  .triangle{
+    width: pxToRem(348px);
+    height: pxToRem(306px);
+    margin: 0 auto;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+.business{
+   font-size: pxToRem(16px);
+   text-align: center;
+  padding-top: pxToRem(100px);
 }
