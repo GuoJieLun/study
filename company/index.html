@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="js/swiper/swiper.css"/>
     <link rel="stylesheet" href="js/responsive-nav/responsive-nav.css"/>
     <link rel="stylesheet" href="css/index.css"/>
-
+    <style>
+        .swiper-slide{
+            color: #000;
+        }
+    </style>
 </head>
 <body>
 <!-- Swiper -->
@@ -95,7 +99,27 @@
                 </ul>
             </div>
         </div>
-        <div class="swiper-slide">Horizontal Slide 3</div>
+
+        <div class="swiper-slide">
+            <div class="box" style="height: 100%;">
+                    <div class="swiper-container swiper-case">
+                        <div class="swiper-wrapper" style="color: #000;">
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                            <div class="swiper-slide">Slide 9</div>
+                            <div class="swiper-slide">Slide 10</div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination-case"></div>
+                    </div>
+            </div>
+        </div>
         <div class="swiper-slide">Horizontal Slide 4</div>
     </div>
     <!-- Add Pagination -->
@@ -115,7 +139,7 @@
         paginationClickable: true,
         direction: 'vertical',
         resistanceRatio:0,
-//        initialSlide:1,
+        initialSlide:2,
         mousewheelControl: true,
         onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
             swiperAnimateCache(swiper); //隐藏动画元素
@@ -125,6 +149,34 @@
             swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
         }
     });
+
+var swiperCase = new Swiper('.swiper-case', {
+    pagination: '.swiper-pagination-case',
+    paginationClickable: true,
+    slidesPerView: 5,
+    slidesPerColumn: 1,
+    spaceBetween: 50,
+    nested:true,
+    breakpoints: {
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 40
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        }
+    }
+});
+
 //    var swiperV = new Swiper('.swiper-container-h', {
 //        pagination: '.swiper-pagination-h',
 //        paginationClickable: true,
