@@ -100,23 +100,30 @@
             </div>
         </div>
 
-        <div class="swiper-slide">
-            <div class="box" style="height: 100%;">
+        <div class="swiper-slide case">
+            <div class="box">
+                <div class="caption ">
+                    <i></i><span>我们能做什么</span>
+                    <br class="clear">
+                </div>
                     <div class="swiper-container swiper-case">
-                        <div class="swiper-wrapper" style="color: #000;">
-                            <div class="swiper-slide">Slide 1</div>
-                            <div class="swiper-slide">Slide 2</div>
-                            <div class="swiper-slide">Slide 3</div>
-                            <div class="swiper-slide">Slide 4</div>
-                            <div class="swiper-slide">Slide 5</div>
-                            <div class="swiper-slide">Slide 6</div>
-                            <div class="swiper-slide">Slide 7</div>
-                            <div class="swiper-slide">Slide 8</div>
-                            <div class="swiper-slide">Slide 9</div>
-                            <div class="swiper-slide">Slide 10</div>
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide">
+                                <div class="case-item" style="background: #000;"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="case-item" style="background: #f0ad4e;"></div>
+                            </div>
+                            <div class="swiper-slide" >
+                                <div class="case-item" style="background: #f4421a;"></div>
+                            </div>
+                            <div class="swiper-slide" >
+                                <div class="case-item" style="background: #e4b9c0;"></div>
+                            </div>
                         </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination swiper-pagination-case"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
             </div>
         </div>
@@ -153,26 +160,18 @@
 var swiperCase = new Swiper('.swiper-case', {
     pagination: '.swiper-pagination-case',
     paginationClickable: true,
-    slidesPerView: 5,
-    slidesPerColumn: 1,
-    spaceBetween: 50,
+    slidesPerView: 4,
+    spaceBetween: 5,
     nested:true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
     breakpoints: {
-        1024: {
-            slidesPerView: 4,
-            spaceBetween: 40
-        },
         768: {
-            slidesPerView: 3,
-            spaceBetween: 30
-        },
-        640: {
             slidesPerView: 2,
-            spaceBetween: 20
         },
-        320: {
+        520: {
             slidesPerView: 1,
-            spaceBetween: 10
+            spaceBetween: 20
         }
     }
 });
