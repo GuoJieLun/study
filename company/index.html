@@ -31,10 +31,6 @@
             <li><a href="">官网</a></li>
         </ul>
     </div>
-    <div class="hotline right">
-        <span>13434218786</span>
-    </div>
-
 
 </header>
 <div class="swiper-container swiper-container-v">
@@ -104,22 +100,22 @@
 
         <div class="swiper-slide case">
             <div class="box">
-                <div class="caption ">
+                <div class=" ">
                     <i></i><span>我们能做什么</span>
                     <br class="clear">
                 </div>
                     <div class="swiper-container swiper-case">
                         <div class="swiper-wrapper ">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide">111
                                 <div class="case-item" style="background: #000;"></div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide">222
                                 <div class="case-item" style="background: #f0ad4e;"></div>
                             </div>
-                            <div class="swiper-slide" >
+                            <div class="swiper-slide" >333
                                 <div class="case-item" style="background: #f4421a;"></div>
                             </div>
-                            <div class="swiper-slide" >
+                            <div class="swiper-slide" >444
                                 <div class="case-item" style="background: #e4b9c0;"></div>
                             </div>
                         </div>
@@ -145,13 +141,15 @@
 //    var navigation = responsiveNav(".nav-collapse");
     var swiperH = new Swiper('.swiper-container-v', {
         pagination: '.swiper-pagination-v',
-        paginationClickable: true,
         direction: 'vertical',
-        resistanceRatio:0,
-        initialSlide:0,
-        mousewheelControl: true,
-        shortSwipes : false,
-        nested:true,
+        resistanceRatio:1,
+        initialSlide:2,
+//        mousewheelControl: true,
+//        touchMoveStopPropagation:false,
+//        passiveListeners : false,
+//        nested:true,
+//        simulateTouch:false,
+
         onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
             swiperAnimateCache(swiper); //隐藏动画元素
             swiperAnimate(swiper); //初始化完成开始动画
@@ -163,40 +161,30 @@
 
 var swiperCase = new Swiper('.swiper-case', {
     pagination: '.swiper-pagination-case',
-    paginationClickable: true,
+    direction: 'horizontal',
     slidesPerView: 4,
     spaceBetween: 5,
-    nested:true,
-    loop : true,
+//    nested:true,
+//    loop : true,
+//    simulateTouch:false,
+//    touchMoveStopPropagation:false,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
-
+    passiveListeners : false,
     breakpoints: {
         768: {
-            slidesPerView: 2,
+            slidesPerView: 2
         },
         520: {
-            effect: 'flip',
+//        effect: 'flip',
             grabCursor: true,
-            slidesPerView: 1,
+            slidesPerView: 1
+
         }
     }
 });
 
-//    var swiperV = new Swiper('.swiper-container-h', {
-//        pagination: '.swiper-pagination-h',
-//        paginationClickable: true,
-//        nested:true,
-//        resistanceRatio:0,
-//        effect : 'fade',
-//        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
-//            swiperAnimateCache(swiper); //隐藏动画元素
-//            swiperAnimate(swiper); //初始化完成开始动画
-//        },
-//        onSlideChangeEnd: function(swiper){
-//            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
-//        }
-//    });
+
 
 
     $(document).ready(function(){

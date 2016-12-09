@@ -845,10 +845,26 @@ ul.items li u {
   }
 }
 /* line 2, ../sass/_case.scss */
+.case .box {
+  height: 100%;
+}
+/* line 4, ../sass/_case.scss */
+.case .box span {
+  color: #ffff00;
+  opacity: 1 !important;
+}
+
+/* line 13, ../sass/_case.scss */
 .swiper-case .case-item {
   width: 260px;
   height: 260px;
   margin: 0 auto;
+}
+/* line 19, ../sass/_case.scss */
+.swiper-case .swiper-slide {
+  height: 100%;
+  position: relative;
+  color: #000000;
 }
 
 /* line 190, ../sass/index.scss */
