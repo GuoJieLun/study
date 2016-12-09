@@ -608,7 +608,7 @@ ul.items li u {
   /* line 386, ../sass/_business.scss */
   .service .box ul.items li {
     width: 173px;
-    height: 43px;
+    height: 52px;
     margin: 15px 10px 0px 10px;
   }
 
@@ -848,19 +848,23 @@ ul.items li u {
 .case .box {
   height: 100%;
 }
-/* line 4, ../sass/_case.scss */
-.case .box span {
-  color: #ffff00;
-  opacity: 1 !important;
-}
 
-/* line 13, ../sass/_case.scss */
+/* line 10, ../sass/_case.scss */
+.swiper-case {
+  position: relative;
+}
+/* line 12, ../sass/_case.scss */
 .swiper-case .case-item {
   width: 260px;
   height: 260px;
   margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -130px;
+  margin-top: -130px;
 }
-/* line 19, ../sass/_case.scss */
+/* line 23, ../sass/_case.scss */
 .swiper-case .swiper-slide {
   height: 100%;
   position: relative;
