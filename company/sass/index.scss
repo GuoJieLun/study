@@ -205,11 +205,15 @@ body {
   position: absolute;
   top: 32px;
   right:24px;
-  transform: scale(1);
+  transform: scale(0);
   transition: transform 0.2s ease 0s;
   z-index: 96;
   list-style: none;
   margin: 0;
+  transform-origin: top right;
+  &.show{
+    transform: scale(1);
+  }
   li{
     line-height: 16px;
     margin: 8px 0;

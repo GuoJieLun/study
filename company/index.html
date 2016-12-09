@@ -197,6 +197,14 @@ var swiperCase = new Swiper('.swiper-case', {
 //            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
 //        }
 //    });
+
+
+    $(document).ready(function(){
+        $('#menu').on('click',function(){
+            $('.nav-collapse').toggleClass('show');
+        });
+    });
+
 </script>
 </body>
 </html>
