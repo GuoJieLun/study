@@ -40,12 +40,14 @@
     ul{
       margin: 0 auto;
       margin-bottom: 20px;
-
+      display: block;
+      padding: 0;
       li{
         position: relative;
         margin: 0 15px;
         padding: 0;
         overflow: hidden;
+        display: inline-block;
         span{
           position: absolute;
           top: 30px;
