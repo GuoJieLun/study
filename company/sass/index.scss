@@ -158,10 +158,19 @@ body {
   }
 }
 
+.wrap-center{
+    position: relative;
+    top:50%;
+   left:50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
 .ad_txt {
   width: 100%;
   text-align: center;
-  padding: pxToRem(130px) 0 pxToRem(50px) 0;
+  padding-bottom:pxToRem(50px);
   margin: 0 auto;
   font-size: 1rem;
   img {
