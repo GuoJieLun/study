@@ -768,47 +768,48 @@ ul.items li u {
   width: 243px;
   height: 37px;
   text-decoration: none;
-  background: url(../images/words.png) no-repeat 0px -877px;
+  color: #2fd0b5;
+  font-size: 30px;
 }
-/* line 48, ../sass/_contact.scss */
+/* line 49, ../sass/_contact.scss */
 .contact .above .left p {
   margin-top: 8px;
   color: #666;
   line-height: 26px;
 }
-/* line 54, ../sass/_contact.scss */
+/* line 55, ../sass/_contact.scss */
 .contact .above .left a {
   color: #666;
   text-decoration: none;
 }
-/* line 59, ../sass/_contact.scss */
+/* line 60, ../sass/_contact.scss */
 .contact .above .left p u {
   margin: 0 5px;
   text-decoration: none;
 }
-/* line 64, ../sass/_contact.scss */
+/* line 65, ../sass/_contact.scss */
 .contact .above .left p a.job {
   margin-left: 20px;
   color: #d00000;
   font-weight: bold;
 }
-/* line 70, ../sass/_contact.scss */
+/* line 71, ../sass/_contact.scss */
 .contact .above .left p a.job:hover {
   border-bottom: 1px solid #d00000;
 }
-/* line 74, ../sass/_contact.scss */
+/* line 75, ../sass/_contact.scss */
 .contact .above .right {
   float: right;
   margin-top: -3px;
   color: #666;
   line-height: 32px;
 }
-/* line 81, ../sass/_contact.scss */
+/* line 82, ../sass/_contact.scss */
 .contact .above .right u {
   margin: 0 5px;
   text-decoration: none;
 }
-/* line 88, ../sass/_contact.scss */
+/* line 89, ../sass/_contact.scss */
 .contact .below {
   padding-top: 50px;
   width: 100%;
@@ -816,7 +817,7 @@ ul.items li u {
   position: relative;
   border-top: 2px dotted #ccc;
 }
-/* line 96, ../sass/_contact.scss */
+/* line 97, ../sass/_contact.scss */
 .contact .below i {
   display: block;
   position: relative;
