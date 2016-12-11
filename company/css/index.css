@@ -82,43 +82,27 @@ body {
 /* line 89, ../sass/index.scss */
 .swiper-slide {
   background: #fff;
-  color: #fff !important;
-  /*text-align: center;*/
-  /*font-size: 18px;*/
-  /*background: #fff;*/
-  /*/!* Center slide text vertically *!/*/
-  /*display: -webkit-box;*/
-  /*display: -ms-flexbox;*/
-  /*display: -webkit-flex;*/
-  /*display: flex;*/
-  /*-webkit-box-pack: center;*/
-  /*-ms-flex-pack: center;*/
-  /*-webkit-justify-content: center;*/
-  /*justify-content: center;*/
-  /*-webkit-box-align: center;*/
-  /*-ms-flex-align: center;*/
-  /*-webkit-align-items: center;*/
-  /*align-items: center;*/
+  color: #fff;
 }
 
-/* line 111, ../sass/index.scss */
+/* line 95, ../sass/index.scss */
 .swiper-one-h {
   background: url("../images/first_bg.jpg") no-repeat 50%;
   background-size: cover;
 }
 
-/* line 130, ../sass/index.scss */
+/* line 114, ../sass/index.scss */
 .swiper-one-h .title {
   text-align: center;
   font-size: 1.5rem;
   padding: 0.5rem;
 }
 
-/* line 137, ../sass/index.scss */
+/* line 121, ../sass/index.scss */
 .slogan {
   position: relative;
 }
-/* line 139, ../sass/index.scss */
+/* line 123, ../sass/index.scss */
 .slogan .sentence {
   width: 16.78571rem;
   height: 1.42857rem;
@@ -128,22 +112,22 @@ body {
   left: 50%;
   margin-left: -8.39286rem;
 }
-/* line 147, ../sass/index.scss */
+/* line 131, ../sass/index.scss */
 .slogan .sentence img {
   width: 100%;
 }
-/* line 151, ../sass/index.scss */
+/* line 135, ../sass/index.scss */
 .slogan .triangle {
   width: 12.42857rem;
   height: 10.92857rem;
   margin: 0 auto;
 }
-/* line 155, ../sass/index.scss */
+/* line 139, ../sass/index.scss */
 .slogan .triangle img {
   width: 100%;
 }
 
-/* line 161, ../sass/index.scss */
+/* line 145, ../sass/index.scss */
 .wrap-center {
   position: relative;
   top: 50%;
@@ -154,7 +138,7 @@ body {
   -o-transform: translate(-50%, -50%);
 }
 
-/* line 170, ../sass/index.scss */
+/* line 154, ../sass/index.scss */
 .ad_txt {
   width: 100%;
   text-align: center;
@@ -162,19 +146,19 @@ body {
   margin: 0 auto;
   font-size: 1rem;
 }
-/* line 176, ../sass/index.scss */
+/* line 160, ../sass/index.scss */
 .ad_txt img {
   width: 100%;
 }
 
-/* line 181, ../sass/index.scss */
+/* line 165, ../sass/index.scss */
 .business {
   font-size: 0.85rem;
   text-align: center;
   padding-top: 3.57143rem;
 }
 
-/* line 187, ../sass/index.scss */
+/* line 171, ../sass/index.scss */
 .header {
   position: fixed;
   top: 0;
@@ -736,6 +720,28 @@ ul.items li u {
   background: url(../images/icons.png) no-repeat -71px -432px;
 }
 
+/* line 1, ../sass/_contact.scss */
+.contact {
+  background: url("../images/linaxi.jpg") no-repeat 50%;
+  background-size: cover;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
 @media (max-width: 1000px) and (max-height: 730px) {
   /* line 2, ../sass/_media.scss */
   .box .caption i {
@@ -1032,19 +1038,19 @@ ul.items li u {
     display: none;
   }
 }
-/* line 200, ../sass/index.scss */
+/* line 185, ../sass/index.scss */
 #menu {
   width: 32px;
   height: 32px;
   position: relative;
   z-index: 3;
 }
-/* line 203, ../sass/index.scss */
+/* line 188, ../sass/index.scss */
 #menu img {
   width: 100%;
 }
 
-/* line 209, ../sass/index.scss */
+/* line 194, ../sass/index.scss */
 .nav-collapse {
   background: #fafafa;
   border-radius: 2px;
@@ -1061,22 +1067,22 @@ ul.items li u {
   margin: 0;
   transform-origin: top right;
 }
-/* line 224, ../sass/index.scss */
+/* line 209, ../sass/index.scss */
 .nav-collapse.show {
   transform: scale(1);
 }
-/* line 227, ../sass/index.scss */
+/* line 212, ../sass/index.scss */
 .nav-collapse li {
   line-height: 16px;
   margin: 8px 0;
   min-height: 32px;
   padding: 0 16px;
 }
-/* line 232, ../sass/index.scss */
+/* line 217, ../sass/index.scss */
 .nav-collapse li:hover {
   background: #eee;
 }
-/* line 235, ../sass/index.scss */
+/* line 220, ../sass/index.scss */
 .nav-collapse li a {
   color: inherit;
   height: 32px;
