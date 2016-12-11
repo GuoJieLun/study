@@ -5,12 +5,17 @@
 }
 .service .box {
   position: relative;
-  padding-top: pxToRem(225px);
+  padding-top: pxToRem(150px);
   -webkit-transition: all .3s ease-in-out 0s;
   -moz-transition: all .3s ease-in-out 0s;
   -ms-transition: all .3s ease-in-out 0s;
   -o-transition: all .3s ease-in-out 0s;
   transition: all .3s ease-in-out 0s;
+  margin: 0 !important;
+  .caption{
+    padding-bottom: pxToRem(30px);
+
+  }
 }
 
 .caption {
