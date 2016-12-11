@@ -1,0 +1,112 @@
+.quality{
+  background: url("../images/service_bg.jpg") no-repeat 50%;
+  background-size: cover;
+  .box{
+    height: 100%;
+    padding-top: pxToRem(190px);
+    .caption{
+      margin-bottom:pxToRem(30px) ;
+      i {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 240px;
+        height: 37px;
+        background: url(../images/words.png) no-repeat 0px -576px;
+      }
+    }
+
+  }
+
+}
+.swiper-items{
+  position: relative;
+  margin: 0 auto;
+  margin-top:pxToRem(120px);
+  width: 100%;
+  height: 260px;
+
+  .swiper-slide{
+    position: relative;
+    color: #000000;
+    background: none;
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+    p{
+      color: #e1e1e1;
+      text-align: center;
+      line-height: 36px;
+    }
+    ul{
+      margin: 0 auto;
+      margin-bottom: 20px;
+
+      li{
+        position: relative;
+        margin: 0 15px;
+        padding: 0;
+        overflow: hidden;
+        span{
+          position: absolute;
+          top: 30px;
+        }
+
+        &.mobi{
+          width: 14px;
+          height: 27px;
+          background: url(../images/icons.png) no-repeat 0px -264px;
+        }
+        &.pad{
+          width: 29px;
+          height: 23px;
+          background: url(../images/icons.png) no-repeat -71px -264px;
+        }
+        &.pc{
+          width: 35px;
+          height: 27px;
+          background: url(../images/icons.png) no-repeat 0px -303px;
+        }
+        &.windows{
+          width: 27px;
+          height: 27px;
+          background: url(../images/icons.png) no-repeat -73px -304px;
+        }
+        &.ios{
+          width: 24px;
+          height: 30px;
+          background: url(../images/icons.png) no-repeat 0px -344px;
+        }
+        &.andriod{
+          width: 28px;
+          height: 29px;
+          background: url(../images/icons.png) no-repeat -72px -345px;
+        }
+        &.ie{
+          width: 28px;
+          height: 28px;
+          background: url(../images/icons.png) no-repeat 0px -392px;
+        }
+        &.chrome{
+          width: 30px;
+          height: 30px;
+          background: url(../images/icons.png) no-repeat -71px -392px;
+        }
+        &.firefox{
+          width: 32px;
+          height: 30px;
+          background: url(../images/icons.png) no-repeat 0px -432px;
+        }
+        &.safari{
+          width: 30px;
+          height: 32px;
+          background: url(../images/icons.png) no-repeat -71px -432px;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
