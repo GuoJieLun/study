@@ -176,7 +176,9 @@ body {
   padding: pxToRem(20px) 10px;
 
 }
-
+.arrowbox{
+  display: none;
+}
 @import "business";
 @import "case";
 @import "items";
@@ -228,3 +230,6 @@ body {
   }
 }
 
+.swiper-pagination-bullet-active{
+  background: #2fd0b5!important;
+}

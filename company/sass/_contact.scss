@@ -110,3 +110,29 @@
 
 
 }
+.button-prev{
+  background: url("../images/arrow_l.png") no-repeat;
+  background-position: center center;
+  background-size: 48px 48px;
+  cursor: pointer;
+  height: 48px;
+  margin-top: -22px;
+  position: absolute;
+  top: 50%;
+  width: 48px;
+  left:15px;
+  z-index: 10;
+}
+.button-next{
+  background: url("../images/arrow_r.png") no-repeat;
+  background-position: center center;
+  background-size: 48px 48px;
+  cursor: pointer;
+  height: 48px;
+  margin-top: -22px;
+  position: absolute;
+  top: 50%;
+  width: 48px;
+  right:15px;
+  z-index: 10;
+}
