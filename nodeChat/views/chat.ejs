@@ -1,0 +1,67 @@
+<%- include('header') %>
+<link rel="stylesheet" href="css/chat.css"/>
+
+<div class="chat-wrap">
+    <h2 class="ui header">
+        <img src="/img/test.png">
+
+        <div class="content">
+            <div>demo</div>
+        </div>
+    </h2>
+
+    <div class="chat-box clearfix">
+        <div class="chat-view left">
+            <div>在线人数:<span id="status">0</span></div>
+            <div id="chatWindow" class="chat-msg">
+
+            </div>
+            <div class="chat-op">
+                <div class="chat-tool">
+                    <div class="ui horizontal list">
+                        <div class="item">
+                            <button class="mini ui grey button">color</button>
+                        </div>
+                        <div class="item">
+                            <button class="mini ui grey button">emoji</button>
+                        </div>
+                        <div class="item">
+                            <button class="mini ui grey button">image</button>
+                        </div>
+                        <div class="item">
+                            <button class="mini ui grey button">clear</button>
+                        </div>
+                    </div>
+                </div>
+                <textarea id="messageInput" class="chat-msg-inp"></textarea>
+
+                <div class="chat-button">
+                    <button class="tiny ui brown  button">关闭</button>
+                    <button id="sendBtn" class="tiny ui brown button">发送</button>
+                </div>
+            </div>
+        </div>
+        <div class="chat-show right">
+
+        </div>
+    </div>
+
+    <div id="loginWrap" class="login-mask">
+        <p id="info">正在连接服务器.....</p>
+
+        <div id="nickWrap" class="ui form chat-form">
+            <div class="ui horizontal list">
+                <div class="item">
+                    <input id="nickName" type="text" placeholder="First Name">
+                </div>
+                <div class="item">
+                    <button id="nickBtn" class="mini ui grey button">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('footer') %>
+<script src="/js/socket.io.min.js"></script>
+<script src="js/hichat.js"></script>

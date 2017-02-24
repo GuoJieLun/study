@@ -1,0 +1,103 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.clearfix {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+*:focus { outline: none; }
+
+.chat-wrap {
+  width: 600px;
+  height: 705px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  background: #e4e0d8;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.5);
+position: relative;
+  z-index: 9999;
+  .header {
+    border-bottom: 1px solid #d9d5cd;
+    padding: 5px;
+    margin-bottom: 0px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .chat-box {
+    .chat-view {
+      width: 450px;
+      height: 610px;
+
+      .chat-msg {
+        width: 100%;
+        height: 442px;
+        overflow: auto;
+        border-right: 1px solid #d9d5cd;
+        border-bottom: 1px solid #d9d5cd;
+      }
+      .chat-op {
+        width: 100%;
+        height: 183px;
+        border-right: 1px solid #d9d5cd;
+      }
+    }
+    .chat-button{
+      text-align: right;
+      padding-right: 10px;
+    }
+    .chat-tool {
+      height: 30px;
+      padding-left: 8px;
+    }
+    .chat-msg-inp {
+      width: 100%;
+      height: 105px;
+      resize: none;
+      border: none;
+      background: none;
+    }
+    .chat-show {
+      width: 148px;
+      height: 610px;
+    }
+  }
+
+  .login-mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding-top: 200px;
+  }
+  .chat-form {
+    display: none;
+  }
+
+  #nickBtn{
+    position: relative;
+    top:8px;
+  }
+  .timespan{
+    color: #bbbbbb;
+  }
+}
